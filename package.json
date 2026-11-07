@@ -1,18 +1,9 @@
 {
-  "name": "newconnect-showcase",
+  "name": "vibe-coding-creations",
   "private": true,
   "version": "1.0.0",
-  "type": "module",
   "scripts": {
-    "dev": "vite --port 3000 --open"
-  },
-  "dependencies": {
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
-    "lucide-react": "^0.454.0"
-  },
-  "devDependencies": {
-    "@vitejs/plugin-react": "^4.3.3",
-    "vite": "^5.4.10"
+    "dev:newconnect": "cd projects/01-newconnect-wireless-showcase && npm run dev",
+    "dev:aethervault": "cd projects/02-aethervault-command-center && npm run dev"
   }
 }
